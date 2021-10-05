@@ -162,7 +162,7 @@ const HomeScreen = () => {
             style={{ height: 'auto' }}
             className='testimonial-img'
             variant='top'
-            src='images/blossom.JPG'
+            src='images/blossom.jpg'
           />
 
           <Card.Body>
