@@ -1,13 +1,200 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Exo&&family=Stick+No+Bills:wght@600&display=swap');
+
+#navbar {
+  background: linear-gradient(-0.25turn, var(--dark-main), 25%, var(--main));
+  /* font-family: 'Bebas Neue', cursive; */
+  font-family: 'Stick No Bills', sans-serif;
+  /* font-family: 'Audiowide', cursive; */
+  /* font-family: 'Exo', sans-serif; */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#slogan {
+  color: var(--light-secondary);
+  /* font-family: 'Bebas Neue', cursive; */
+  font-family: 'Exo', sans-serif;
+  /* font-family: 'Stick No Bills', sans-serif; */
+}
+
+/* Utilities */
+:root {
+  --main: #be3144;
+  --secondary: black;
+  --light-main: #d25062;
+  --light-secondary: black;
+  --dark-main: #952735;
+  /* --background: rgb(218, 230, 233); */
+  --bg: #e6e6e6;
+  --light-text: #f1f1f1;
+}
+
+.text {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.3rem;
+  color: black;
+  line-height: 2.5rem;
+}
+
+.btn,
+.btn-2 {
+  padding: 1rem 3rem;
+  transition-duration: 0.4s;
+  color: var(--dark-main);
+  border: var(--dark-main) solid 2px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+  color: var(--light-secondary);
+  background-color: var(--dark-main);
+}
+
+.btn-2 {
+  color: #facf39;
+  border: var(--secondary) solid 1px;
+}
+
+.btn-2:hover {
+  opacity: 0.9;
+  color: var(--secondary);
+  background-color: var(--light-main);
+}
+
+/* General Styling */
+main {
+  min-height: 80vh;
+  /* background: linear-gradient(-0.25turn, var(--background), 35%, var(--main)); */
+  background: var(--bg);
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Bebas Neue', cursive;
+  color: var(--light-secondary);
+}
+
+hr {
+  color: white;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  /* border: solid 1px var(--); */
+  border-radius: 5px;
+}
+
+.testimonial-img {
+  border: none;
+  display: block;
+  padding: 1rem;
+  margin: auto !important;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-card {
+  background: linear-gradient(-0.25turn, var(--dark-main), 35%, var(--main));
+  border: solid #142331 2px !important;
+  color: #f1f1f1;
+  transition: all 0.3s ease-out;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.home-card:hover {
+  transform: translateY(-5px) scale(1.005) translateZ(0);
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.sec-bg {
+  border-radius: 5px;
+  padding: 2rem;
+  background-color: var(--dark-main);
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.socials {
+  background-color: var(--dark-main);
+  color: #f1f1f1;
+}
+
+/* Navbar */
+
+a#brand.navbar-brand {
+  margin: 0;
+  padding: 0;
+}
+
+#navbar #brand {
+  color: var(--light-secondary);
+  font-size: 2.5rem;
+}
+
+#link {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1rem;
+  padding: 0.5rem;
+  color: var(--light-secondary);
+  border: var(--light-main) solid 1px;
+  transition: 0.5s;
+}
+
+#link:hover {
+  opacity: 0.9;
+  color: #142331;
+  background-color: var(--light-main);
+}
+
+a.nav-link {
+  padding: 0.5rem !important;
+  margin: 0.5rem !important;
+}
+
+/* Footer */
+footer {
+  background-color: var(--main);
+  color: #fff;
+}
+
+@media only screen and (max-width: 1200px) {
+  /* .cols {
+    padding: 2rem;
+  } */
+
+  img {
+    margin: 1rem 0;
+  }
+  .sec-bg {
+    margin: 1rem 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .sec-bg {
+    margin: 1rem;
+  }
+}
+@media only screen and (max-width: 425px) {
+  /*Small smartphones [325px -> 425px]*/
 }
