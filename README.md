@@ -1,3 +1,9 @@
+![Alt Text](https://media.giphy.com/media/EQHBijGPhpqUYvXC1r/giphy.gif)
+
+# Trainer Portfolio
+
+Simple portfolio for basketball trainer. Content contains trainer experience as well as where he can be contacted.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
