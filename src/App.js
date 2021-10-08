@@ -3,7 +3,7 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import HomeScreen from './screens/HomeScreen';
 import ContactScreen from './screens/ContactScreen';
-import { Container } from 'react-bootstrap';
+
 import TopScroll from './components/TopScroll';
 
 const App = () => {
@@ -11,11 +11,9 @@ const App = () => {
     <Router>
       <TopScroll>
         <Header />
-        <main className='py-4'>
-          <Container>
-            <Route path='/' component={HomeScreen} exact />
-            <Route path='/contact' component={ContactScreen} exact />
-          </Container>
+        <main>
+          <Route path='/' component={HomeScreen} exact />
+          <Route path='/contact' component={ContactScreen} exact />
         </main>
         <Footer />
       </TopScroll>

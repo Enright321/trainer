@@ -1,9 +1,9 @@
 import React from 'react';
-import { Row, Col, Card } from 'react-bootstrap';
+import { Row, Col, Card, Container } from 'react-bootstrap';
 
 const ContactScreen = () => {
   return (
-    <div>
+    <Container>
       <h2 className='center py-5'>WHERE TO REACH ME?</h2>
 
       <Row xs={1} md={2} className='g-4' fluid='true'>
@@ -68,7 +68,7 @@ const ContactScreen = () => {
           </Card>
         </Col>
       </Row>
-    </div>
+    </Container>
   );
 };
 

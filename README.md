@@ -1,4 +1,4 @@
-![Alt Text](https://media.giphy.com/media/EQHBijGPhpqUYvXC1r/giphy.gif)
+![Alt Text](https://media.giphy.com/media/UxdZFDaR6WoX3k6ePr/giphy.gif)
 
 # Trainer Portfolio
 
