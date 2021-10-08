@@ -26,7 +26,7 @@ const CTA = () => {
           </Link>
         </Col>
         <Col md={6} style={{ paddingRight: '0', marginRight: '0' }}>
-          <img src='images/bball.PNG' alt='' />
+          <img src='images/bball.PNG' alt='basketball' />
         </Col>
       </Row>
     </div>
