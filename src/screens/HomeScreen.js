@@ -78,7 +78,7 @@ const HomeScreen = () => {
               <strong>
                 <h2 className='text-center'>Achievements</h2>
                 <div className='text'>
-                  <ul style={{ listStyle: 'none' }}>
+                  <ul style={{ listStyle: 'none', paddingLeft: '0rem' }}>
                     <li>
                       4 year varsity player at Webster Groves High School.
                     </li>
@@ -131,7 +131,7 @@ const HomeScreen = () => {
 
       <hr style={{ color: 'black' }} className='my-5 py-1' />
       <h1 className='text-center py-3'>TESTIMONIALS</h1>
-      <CardGroup>
+      <CardGroup style={{ maxWidth: '1000px', margin: 'auto' }}>
         <Card className='home-card'>
           <Card.Img
             style={{ height: 'auto' }}
