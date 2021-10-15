@@ -27,6 +27,14 @@
   --light-text: #f1f1f1;
 }
 
+div.col {
+  text-align: center;
+}
+
+h1.cta-title {
+  padding: 0 !important;
+}
+
 html,
 body {
   max-width: 100%;
