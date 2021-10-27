@@ -1,12 +1,14 @@
 ![Alt Text](https://media.giphy.com/media/UxdZFDaR6WoX3k6ePr/giphy.gif)
 
+[Click me to go to site!](https://pizzastoreapp.herokuapp.com/)
+
 # Trainer Portfolio
 
 Simple portfolio for basketball trainer. Content contains trainer experience as well as where he can be contacted.
 
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://endurehoops.herokuapp.com/).
 
 ## Available Scripts
 
