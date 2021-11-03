@@ -4,10 +4,7 @@ import { Link } from 'react-router-dom';
 
 const CTA = () => {
   return (
-    <div
-      className='py-5'
-      style={{ backgroundColor: 'white', maxWidth: '1800px', margin: 'auto' }}
-    >
+    <div className='py-5' id='cta'>
       <Row>
         <Col>
           <h1 className='cta-title'>Let's get to work.</h1>

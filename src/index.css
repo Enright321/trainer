@@ -2,17 +2,23 @@
 
 #navbar {
   background: linear-gradient(-0.25turn, var(--dark-main), 25%, var(--main));
-  /* font-family: 'Bebas Neue', cursive; */
   font-family: 'Stick No Bills', sans-serif;
-  /* font-family: 'Audiowide', cursive; */
-  /* font-family: 'Exo', sans-serif; */
 }
 
 #slogan {
   color: var(--light-secondary);
-  /* font-family: 'Bebas Neue', cursive; */
   font-family: 'Exo', sans-serif;
-  /* font-family: 'Stick No Bills', sans-serif; */
+}
+
+/* cta */
+#cta {
+  background-color: #fff;
+  max-width: 1800px;
+  margin: auto;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Utilities */
@@ -22,7 +28,6 @@
   --light-main: #d25062;
   --light-secondary: black;
   --dark-main: #952735;
-  /* --background: rgb(218, 230, 233); */
   --bg: #f3f4f6;
   --light-text: #f1f1f1;
 }
@@ -76,7 +81,6 @@ body {
 /* General Styling */
 main {
   min-height: 80vh;
-  /* background: linear-gradient(-0.25turn, var(--background), 35%, var(--main)); */
   background: var(--bg);
 }
 
@@ -107,7 +111,6 @@ img {
   width: 100%;
   height: auto;
   display: block;
-  /* border: solid 1px var(--); */
   border-radius: 5px;
 }
 
@@ -197,10 +200,6 @@ h1.cta-title {
 }
 
 @media only screen and (max-width: 1200px) {
-  /* .cols {
-    padding: 2rem;
-  } */
-
   img {
     margin: 1rem 0;
   }

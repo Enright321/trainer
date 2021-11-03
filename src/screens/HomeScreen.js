@@ -12,7 +12,11 @@ const HomeScreen = () => {
 
         <Row xs={1} sm={1} md={2}>
           <Col xs={{ span: 12, order: 2 }} md={{ span: 5, order: 1 }}>
-            <img src='/images/shooting.JPG' alt='' />
+            <img
+              style={{ width: '100%' }}
+              src='/images/main1.JPG'
+              alt='intro'
+            />
           </Col>
           <Col xs={{ span: 12, order: 1 }} md={{ span: 7, order: 2 }}>
             <div
@@ -57,7 +61,11 @@ const HomeScreen = () => {
             </div>
           </Col>
           <Col md={5}>
-            <img src='/images/1.JPG' alt='' />
+            <img
+              style={{ width: '100%' }}
+              src='/images/main2.JPG'
+              alt='background'
+            />
           </Col>
         </Row>
         <Row xs={1} sm={1} md={2}>
@@ -66,7 +74,11 @@ const HomeScreen = () => {
             xs={{ span: 12, order: 2 }}
             md={{ span: 5, order: 1 }}
           >
-            <img src='/images/5.JPG' alt='' />
+            <img
+              style={{ width: '100%' }}
+              src='/images/main3.JPG'
+              alt='achievements'
+            />
           </Col>
           <Col
             className='cols'
@@ -114,7 +126,8 @@ const HomeScreen = () => {
               style={{ height: 'auto' }}
               className='testimonial-img'
               variant='top'
-              src='images/test_4.png'
+              src='images/test1.jpg'
+              alt='training'
             />
             <Card.Body>
               <Card.Title className='text-center' style={{ color: '#f1f1f1' }}>
@@ -139,7 +152,8 @@ const HomeScreen = () => {
               style={{ height: 'auto' }}
               className='testimonial-img'
               variant='top'
-              src='images/blossom.jpg'
+              src='images/test2.jpg'
+              alt='coach blossom'
             />
 
             <Card.Body>
@@ -160,30 +174,11 @@ const HomeScreen = () => {
                 game."
               </Card.Text>{' '}
             </Card.Body>
-            <Card.Footer className='text-center' style={{ color: 'black' }}>
+            <Card.Footer className='text-center'>
               <small>Photo by STL High School Sports - Randy Kemp</small>
             </Card.Footer>
             <hr />
           </Card>
-
-          {/* <Card className='home-card'>
-          <Card.Img
-            style={{ height: 'auto' }}
-            className='testimonial-img'
-            variant='top'
-            src='images/test_2.png'
-          />
-          <Card.Body>
-            <Card.Title className='text-center' style={{ color: '#f1f1f1' }}>
-              Brady
-            </Card.Title>
-            <Card.Text className='text-center' style={{ color: '#f1f1f1' }}>
-              "Matt has made me a more all around player, and has taught me what
-              it's like to actually work hard."
-            </Card.Text>
-          </Card.Body>
-          <hr />
-        </Card> */}
         </CardGroup>
         <div className='center py-5'>
           <Link className='btn' to='/contact'>

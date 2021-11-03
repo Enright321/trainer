@@ -1,6 +1,6 @@
 ![Alt Text](https://media.giphy.com/media/UxdZFDaR6WoX3k6ePr/giphy.gif)
 
-[Click me to go to site!](https://endurehoops.herokuapp.com/)
+[Click me to go to site!](www.endurehoops.com)
 
 # Trainer Portfolio
 

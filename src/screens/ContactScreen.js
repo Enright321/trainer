@@ -3,8 +3,13 @@ import { Row, Col, Card, Container } from 'react-bootstrap';
 
 const ContactScreen = () => {
   return (
-    <Container>
-      <h2 className='center py-5'>WHERE TO REACH ME?</h2>
+    <Container style={{ paddingBottom: '1rem' }}>
+      <h2
+        className='center'
+        style={{ paddingTop: '3rem', paddingBottom: '1rem' }}
+      >
+        WHERE TO REACH ME?
+      </h2>
 
       <Row xs={1} md={2} className='g-4' fluid='true'>
         <Col>
