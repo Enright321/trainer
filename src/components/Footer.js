@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className='py-3'>
       <Container>
         <Row>
-          <Col className='text-center py-3' style={{ color: 'black' }}>
+          <Col className='text-center py-3' style={{ color: '#ccc' }}>
             Copyright &copy; Endure Hoops
           </Col>
         </Row>

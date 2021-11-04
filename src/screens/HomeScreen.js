@@ -175,7 +175,9 @@ const HomeScreen = () => {
               </Card.Text>{' '}
             </Card.Body>
             <Card.Footer className='text-center'>
-              <small>Photo by STL High School Sports - Randy Kemp</small>
+              <small>
+                <i>Photo by STL High School Sports - Randy Kemp</i>
+              </small>
             </Card.Footer>
             <hr />
           </Card>

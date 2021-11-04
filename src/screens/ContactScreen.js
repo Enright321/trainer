@@ -13,7 +13,7 @@ const ContactScreen = () => {
 
       <Row xs={1} md={2} className='g-4' fluid='true'>
         <Col>
-          <Card>
+          <Card className='contact-card'>
             <Card.Body className='socials'>
               <Card.Title className='text-center'>
                 <span className='fs-1'>CELL PHONE</span>
@@ -23,7 +23,7 @@ const ContactScreen = () => {
           </Card>
         </Col>
         <Col>
-          <Card>
+          <Card className='contact-card'>
             <Card.Body className='socials'>
               <Card.Title className='text-center'>
                 <span className='fs-1'>EMAIL</span>
@@ -35,7 +35,7 @@ const ContactScreen = () => {
           </Card>
         </Col>
         <Col>
-          <Card>
+          <Card className='contact-card'>
             <Card.Body className='socials'>
               <Card.Title className='text-center'>
                 <span className='fs-1'>INSTAGRAM</span>
@@ -47,14 +47,14 @@ const ContactScreen = () => {
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <strong>VISIT</strong>
+                  <strong>VISIT INSTAGRAM</strong>
                 </a>
               </div>
             </Card.Body>
           </Card>
         </Col>
         <Col>
-          <Card>
+          <Card className='contact-card'>
             <Card.Body className='socials'>
               <Card.Title className='text-center'>
                 <span className='fs-1'>TWITTER</span>
@@ -66,7 +66,7 @@ const ContactScreen = () => {
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <strong> VISIT </strong>
+                  <strong> VISIT TWITTER </strong>
                 </a>
               </div>
             </Card.Body>

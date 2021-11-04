@@ -22,13 +22,6 @@ const CTA = () => {
             </button>
           </Link>
         </Col>
-        {/* <Col md={6}>
-          <img
-            src='images/bball.jpg'
-            alt='basketball'
-            style={{ width: '400px', height: '300px', margin: 'auto' }}
-          />
-        </Col> */}
       </Row>
     </div>
   );
