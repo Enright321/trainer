@@ -11,14 +11,11 @@
 }
 
 #navbar {
-  background: rgb(9, 34, 121);
+  background: rgb(1, 52, 91);
   background: linear-gradient(
     90deg,
-    rgba(9, 34, 121, 1) 0%,
-    rgba(9, 34, 121, 1) 20%,
-    rgba(0, 18, 85, 1) 50%,
-    rgba(9, 34, 121, 1) 80%,
-    rgba(9, 34, 121, 1) 100%
+    rgba(1, 52, 91, 1) 0%,
+    rgba(0, 31, 55, 1) 100%
   );
 
   font-family: 'Stick No Bills', sans-serif;
