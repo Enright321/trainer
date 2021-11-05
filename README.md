@@ -1,4 +1,4 @@
-![Alt Text](https://media.giphy.com/media/T9JACymZYmqBazvbFX/giphy.gif)
+![Alt Text](https://media.giphy.com/media/I3RizQLCb3gAqG5uy1/giphy.gif)
 
 [Click me to go to site!](http://www.endurehoops.com)
 
